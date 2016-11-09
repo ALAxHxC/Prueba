@@ -17,6 +17,7 @@ import ponny.org.prueba.vistas.Fondos;
 
 /**
  * Created by Daniel on 08/11/2016.
+ * Lista las categorias
  */
 public class ListaCategorias extends BaseAdapter {
     private ArrayList<String> titulos;

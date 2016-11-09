@@ -174,6 +174,10 @@ public class ControladorEntry {
         return artis;
     }
 
+    /**
+     * Collection de categorias apartir de un hashmap
+     * @return
+     */
     private Collection<Categoria> cargarCateogria() {
         HashMap<String, Categoria> categoriaHashMap = new HashMap<>();
         for (Entry entry : getListaEntrys()) {
@@ -182,6 +186,10 @@ public class ControladorEntry {
         return categoriaHashMap.values();
     }
 
+    /**
+     *
+     * @return lista de categorias por url y nombre ordenado
+     */
     public ArrayList<ArrayList<String>> cargarCategorias() {
         ArrayList<ArrayList<String>> contenido = new ArrayList<>();
         ArrayList<String> nombre = new ArrayList<>();

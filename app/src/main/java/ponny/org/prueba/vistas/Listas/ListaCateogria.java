@@ -4,16 +4,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.GridView;
-import android.widget.ImageView;
 
 import java.util.ArrayList;
 
 import ponny.org.prueba.R;
-import ponny.org.prueba.controlador.conexion.TareaConexionImagen;
-import ponny.org.prueba.modelo.entidades.entry.Entry;
-import ponny.org.prueba.modelo.entidades.entry.ImImage;
 import ponny.org.prueba.vistas.Listas.adapters.ListaCategorias;
 
+/**
+ * Activity que lsita categorias
+ */
 public class ListaCateogria extends AppCompatActivity {
     private ArrayList<String> name;
     private ArrayList<String> url;
