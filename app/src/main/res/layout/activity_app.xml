@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ponny.org.prueba.vistas.AppActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:background="@drawable/phonefondo">
+
+        <TextView
+            android:id="@+id/textViewEntryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:accessibilityLiveRegion="none"
+            android:layout_marginTop="10dp" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageViewEntry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/gridview"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textViewAutorO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/autor"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+
+                    <Space
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/textViewAutorI"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Facebook, Inc."
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewCategoria"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Photo &amp; Video"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#1e44cf" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textViewO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/costo"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+
+                    <Space
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/textViewPriceI"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0.00000"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+
+                    <Space
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/textViewAtributeP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="USD"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewRealseAtributes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="June 15, 2015"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewRealseDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="2015-06-15T09:33:12-07:00"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textViewSumaryO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/summary"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+
+                <TextView
+                    android:id="@+id/textViewSumaryI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/abc_tint_switch_track" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Prueba</string>
+    <string name="Descargando">Descargando Datos</string>
+    <string name="apps_file">apps.json</string>
+    <string name="error">Error</string>
+    <string name="error_json">No se encontro archivo</string>
+    <string name="fallo_internet">Revise Su Conexion</string>
+    <string name="funcion_cache">La aplicacion funcionara modo offline</string>
+    <string name="caragando">Cargando</string>
+    <string name="url">https://itunes.apple.com/us/rss/topfreeapplications/limit=20/json</string>
+    <string name="entry">entry</string>
+    <string name="feed">feed</string>
+    <string name="ex_img">.png</string>
+    <string name="id_extra">app</string>
+    <string name="resumen_app">Resumen del App</string>
+    <string name="autor">Autor</string>
+    <string name="costo">Precio</string>
+    <string name="summary">Resumen</string>
+    <string name="id_entry">ID</string>
+    <string name="intent_name">name</string>
+    <string name="intent_sumary">Summary</string>
+    <string name="intent_price">price</string>
+    <string name="intent_categoria">categoria</string>
+    <string name="intent_urlcategoria">urlcategoria</string>
+    <string name="intent_autor">Autor</string>
+    <string name="intent_id">id_intent</string>
+    <string name="intent_url">urlapp</string>
+    <string name="intent_img">intentimg</string>
+    <string name="intent_imgname">imgname</string>
+    <string name="intent_moneda">intentmoneda</string>
+    <string name="intent_release">intent_release</string>
+    <string name="intenet_categoria">Categoria_intent</string>
+    <string name="intenet_urls">Urls</string>
+    <string name="categorias">Categorias</string>
+</resources>
